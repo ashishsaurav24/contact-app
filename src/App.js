@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import AddContact from "./components/AddContact";
-// import ContactList from "./components/ContactList";
+import ContactList from "./components/ContactList";
 // import ContactCard from "./components/ContactCard";
 
 function App() {
   return (
-    <div className="App">
+    <div className="ui container">
       <Header />
       <AddContact />
-      {/* <ContactList />
-      <ContactCard /> */}
+      <ContactList />
+      {/* <ContactCard /> */}
     </div>
   );
 }
